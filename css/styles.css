@@ -110,10 +110,25 @@ p{
 
 .press-img{
     width: 15%;
-    margin: 20px 20x 50px;
+    margin: 20px 20px 50px;
 
 }
 
 .carousel-item{
     padding: 7% 15%;
+}
+
+/*Pricing Section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-pg{
+    padding-bottom: 5%;
 }
