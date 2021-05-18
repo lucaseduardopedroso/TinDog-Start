@@ -33,7 +33,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -66,11 +66,21 @@ p{
 .iphone{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
+
+.iphone-div{
+    position: relative;
+}
+
 /* Features Section */
 
 #features{
     padding: 7% 15%;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
