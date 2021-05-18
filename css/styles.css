@@ -74,6 +74,17 @@ p{
     position: relative;
 }
 
+@media (max-width: 1000px){
+    #title{
+        text-align: center;
+    }
+
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
 /* Features Section */
 
 #features{
@@ -112,6 +123,12 @@ p{
     margin: 20px;
 }
 
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
 #press{
     background-color: #ef8172;
     text-align: center;
@@ -124,9 +141,6 @@ p{
 
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
 /*Pricing Section*/
 #pricing{
@@ -141,4 +155,24 @@ p{
 
 .pricing-pg{
     padding-bottom: 5%;
+}
+
+/*CTA Section*/
+#cta{
+    background-color: #ff4c68;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cc-icon{
+    margin: 20px 10px;
 }
